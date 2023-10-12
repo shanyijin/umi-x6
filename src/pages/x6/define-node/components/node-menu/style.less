@@ -1,0 +1,101 @@
+.flow-node-handler-wrapper {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    transition: height 0.2s;
+    user-select: none;
+  
+    .flow-node-handler {
+      position: relative;
+      z-index: 21;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      padding-bottom: 1px;
+      color: #fff;
+      font-size: 24px;
+      background: #0089ff;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      transform: scale(0.28571);
+      transform: scale(0);
+      cursor: pointer;
+      opacity: 1;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  
+    &:hover .flow-node-handler {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .node-menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.24);
+  
+    .editor-nodes-panel-category {
+      margin-bottom: 5px;
+      width: 292px;
+  
+      .editor-nodes-panel-category-title {
+        margin-bottom: 8px;
+        color: #889096;
+        font-size: 12px;
+        line-height: 18px;
+      }
+  
+      .editor-nodes-panel-items-container {
+        box-sizing: border-box;
+  
+        .editor-node-panel-node {
+          display: inline-flex;
+          align-items: center;
+          width: 140px;
+          height: 40px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          padding: 6px 7px;
+          color: #fff;
+          font-size: 14px;
+          font-family: PingFangSC-Regular;
+          line-height: 22px;
+          letter-spacing: 0;
+          border: 1px solid rgba(229, 230, 232, 0.2);
+          border-radius: 4px;
+          cursor: pointer;
+          transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+          >img {
+            display: block;
+            width: 28px;
+            height: 28px;
+            margin-right: 8px;
+          }
+          &:nth-child(2n) {
+            margin-right: 0px;
+          }
+  
+          &:hover {
+            background: #424242;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }

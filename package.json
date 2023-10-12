@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "author": "",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@antv/x6": "^2.13.1",
+    "@antv/x6-plugin-history": "2.2.3",
+    "@antv/x6-plugin-keyboard": "2.2.1",
+    "@antv/x6-react-shape": " 2.2.2",
+    "@umijs/plugins":"4.0.81",
+    "umi": "^4.0.85",
+    "ahooks": "3.7.7",
+    "antd": "^4.24.10",
+    "axios": "1.2.0",
+    "lodash":"4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3",
+    "@types/events": "^3.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/streamsaver": "^2.0.0",
+    "@types/traverse": "^0.6.32",
+    "@types/lodash": "^4.14.6",
+    "@umijs/fabric": "4.0.1",
+    "prop-types": "^15.8.1",
+    "cross-env": "^7",
+    "eslint": "^8.43.0",
+    "fs-extra": "^11.1.1",
+    "husky": "^8",
+    "lamejs": "1.2.1",
+    "lint-staged": "^13",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0"
+  }
+}
