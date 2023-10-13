@@ -1,0 +1,14 @@
+node_modules
+.umi
+.umi-production
+node_modules
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+package.json
+.umi
+.umi-production
+.umi-test
+public
+dist

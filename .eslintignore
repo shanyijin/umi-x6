@@ -1,0 +1,8 @@
+# .gitignore--
+public
+assets
+dist
+.umi
+.umi-production
+.umi-test
+mock

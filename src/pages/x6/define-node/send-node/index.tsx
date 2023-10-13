@@ -32,12 +32,12 @@ const CustomComponent = (props: DefineNodePropsType) => {
 
         <div className={style['flow-node-box']}>
           <div className={style['box-title']}>
-            < img src="https://img.alicdn.com/imgextra/i1/O1CN01sI1pB01PZdOfWnFTH_!!6000000001855-55-tps-28-28.svg" />
+            <img src="https://img.alicdn.com/imgextra/i1/O1CN01sI1pB01PZdOfWnFTH_!!6000000001855-55-tps-28-28.svg" />
             抄送人
           </div>
           <div className={style['flow-node-content']}>
             <div className={style['flow-node-text']}>{data?.name || '--'}</div>
-            < img src="https://img.alicdn.com/imgextra/i1/O1CN01o2m7uy1v0t2dUa6fc_!!6000000006111-55-tps-16-16.svg" />
+            <img src="https://img.alicdn.com/imgextra/i1/O1CN01o2m7uy1v0t2dUa6fc_!!6000000006111-55-tps-16-16.svg" />
           </div>
         </div>
         <div className={style.point} />

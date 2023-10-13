@@ -1,23 +1,25 @@
 .toolbar {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+
+  .zoom {
     display: flex;
-  
-    .zoom {
-      display: flex;
-      align-items: center;
-      margin-right: 8px;
-  
-      .text {
-        margin: 0px 6px;
-      }
-    }
-    .center {
-      margin-right: 8px;
-    }
-    .save {
-      margin-left: 8px;
+    align-items: center;
+    margin-right: 8px;
+
+    .text {
+      margin: 0 6px;
     }
   }
+
+  .center {
+    margin-right: 8px;
+  }
+
+  .save {
+    margin-left: 8px;
+  }
+}

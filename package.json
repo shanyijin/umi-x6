@@ -6,6 +6,7 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
+    "prepare": "husky install",
     "start": "npm run dev"
   },
   "dependencies": {
@@ -14,12 +15,12 @@
     "@antv/x6-plugin-history": "2.2.3",
     "@antv/x6-plugin-keyboard": "2.2.1",
     "@antv/x6-react-shape": " 2.2.2",
-    "@umijs/plugins":"4.0.81",
+    "@umijs/plugins": "4.0.81",
     "umi": "^4.0.85",
     "ahooks": "3.7.7",
     "antd": "^4.24.10",
     "axios": "1.2.0",
-    "lodash":"4.17.21"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "typescript": "^5.0.3",
@@ -37,7 +38,7 @@
     "husky": "^8",
     "lamejs": "1.2.1",
     "lint-staged": "^13",
-    "prettier": "^2",
+    "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "^2.4.3",
     "sass": "^1.53.0",
