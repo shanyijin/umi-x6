@@ -22,5 +22,5 @@
       "umi/typings": ["src/.umi/typings"]
     }
   },
-  "include": ["../../.umirc.ts", "../../**/*.d.ts", "../../**/*.ts", "../../**/*.tsx"]
+  "include": [".umirc.ts", "src", "typings.d.ts"]
 }

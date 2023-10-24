@@ -80,9 +80,9 @@ export const getGenerateList = (data: DataNode[]) => {
  * @returns
  */
 export const checkFileSize = (file: any) => {
-    const size = file.size / 1024 / 1024 < 1;
-    if (!size) {
-      notification.error({ message: '', description: '文件大小超过1M' });
-    }
-    return size || Upload.LIST_IGNORE;
-  };
+  const size = file.size / 1024 / 1024 < 1;
+  if (!size) {
+    notification.error({ message: '', description: '文件大小超过1M' });
+  }
+  return size || Upload.LIST_IGNORE;
+};

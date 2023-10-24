@@ -1,6 +1,6 @@
 import { useThrottleFn } from 'ahooks';
 
-import { ConfigProvider, Popover } from 'antd';
+import { Popover } from 'antd';
 
 import { isFunction } from 'lodash';
 
@@ -8,9 +8,8 @@ import { addBranch, defineAddNode } from '../../util';
 
 import style from './style.less';
 
+import type { X6Graph } from '@/pages/x6';
 import type { DefineNodePropsType } from '../..';
-
-import type { X6Graph } from '@/components/X6';
 
 const NodeMenu = (props: DefineNodePropsType & { STUTES: X6Graph['STATUS'] }) => {
   const { node, STUTES } = props;

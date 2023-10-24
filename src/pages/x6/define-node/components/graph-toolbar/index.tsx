@@ -13,8 +13,7 @@ import {
 
 import { Button } from 'antd';
 
-import type { X6Graph } from '@/components/X6';
-
+import type { X6Graph } from '@/pages/x6';
 import style from './style.less';
 
 type GraphToolbarPropsType = {
